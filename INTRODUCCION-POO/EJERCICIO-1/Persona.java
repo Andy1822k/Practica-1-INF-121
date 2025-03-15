@@ -11,11 +11,11 @@ public class Persona
     }
     public void saludar() 
     {
-        System.out.println("Hola, soy " + nombre + " de " + ciudad);
+        System.out.println("Hola, soy " + Nombre + " de " + Ciudad);
     }
     public boolean esMayorDeEdad() 
     {
-        return edad >= 18;
+        return Edad >= 18;
     }
     public static void main(String[] args) 
     {
@@ -25,8 +25,8 @@ public class Persona
         p1.saludar();
         p2.saludar();
         p3.saludar();
-        System.out.println(p1.nombre + " es mayor de edad: " + p1.esMayorDeEdad());
-        System.out.println(p2.nombre + " es mayor de edad: " + p2.esMayorDeEdad());
-        System.out.println(p3.nombre + " es mayor de edad: " + p3.esMayorDeEdad());
+        System.out.println(p1.Nombre + " es mayor de edad: " + p1.esMayorDeEdad());
+        System.out.println(p2.Nombre + " es mayor de edad: " + p2.esMayorDeEdad());
+        System.out.println(p3.Nombre + " es mayor de edad: " + p3.esMayorDeEdad());
     }
 }
