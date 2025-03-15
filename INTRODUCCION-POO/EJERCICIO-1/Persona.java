@@ -1,13 +1,13 @@
 public class Persona 
 {
-    String nombre;
-    int edad;
-    String ciudad;
+    String Nombre;
+    int Edad;
+    String Ciudad;
     public Persona(String nombre, int edad, String ciudad) 
     {
-        this.nombre = nombre;
-        this.edad = edad;
-        this.ciudad = ciudad;
+        this.Nombre = nombre;
+        this.Edad = edad;
+        this.Ciudad = ciudad;
     }
     public void saludar() 
     {
