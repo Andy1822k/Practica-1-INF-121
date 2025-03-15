@@ -14,9 +14,6 @@ class Coche:
         if self.velocidad < 0:
             self.velocidad = 0
         print(f"{self.marca} {self.modelo} ha frenado. Velocidad actual: {self.velocidad} km/h")
-        
-    def mostrar_velocidad(self):
-        print(f"{self.marca} {self.modelo} tiene una velocidad de {self.velocidad} km/h")
 
 coche1 = Coche("Toyota", "Corolla")
 coche2 = Coche("Ford", "Mustang")
@@ -24,5 +21,5 @@ coche1.acelerar()
 coche2.acelerar()
 coche1.frenar()
 coche2.frenar()
-coche1.mostrar_velocidad()
-coche2.mostrar_velocidad()
+print(f"Velocidad final de {coche1.marca} {coche1.modelo}: {coche1.velocidad} km/h")
+print(f"Velocidad final de {coche2.marca} {coche2.modelo}: {coche2.velocidad} km/h")
